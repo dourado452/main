@@ -26,7 +26,7 @@ class AutBancoInter {
 	}
 
 	@Test
-	void test() throws InterruptedException {
+	void testaberturadeconta() throws InterruptedException {
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("button")).click();
 			Thread.sleep(3000);
